@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 #define MAX 10000
+int n = MAX;
+int list[MAX];
 
 void selection_sort(int list[], int n)
 {
@@ -23,9 +25,6 @@ void selection_sort(int list[], int n)
 
 int main()
 {
-	int n = MAX;
-	int a[MAX];
-
 	for (int i = 0; i < n; i++)
 	{
 		a[i] = rand() % n;
